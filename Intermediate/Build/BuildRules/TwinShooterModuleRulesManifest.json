@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\larsn_lfaf6p3\\WaveShooter\\Source\\TwinShooter\\TwinShooter.Build.cs",
+		"C:\\Users\\larsn_lfaf6p3\\WaveShooter\\Source\\TwinShooter.Target.cs",
+		"C:\\Users\\larsn_lfaf6p3\\WaveShooter\\Source\\TwinShooterEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.1"
+}

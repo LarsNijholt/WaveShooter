@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>62C6F20C4F8632AB9EDE48A0A1B2B977</ExecutionGuid>
+<CrashGUID>_0000</CrashGUID>
+<ProcessId>18280</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<SecondsSinceStart>0</SecondsSinceStart>
+<GameName>UE4-TwinShooter</GameName>
+<ExecutableName></ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.23-CL-9631420-Win64-Development</Symbols>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.23.1-9631420+++UE4+Release-4.23</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale></AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.23-CL-9631420</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir></BaseDir>
+<RootDir></RootDir>
+<MachineId></MachineId>
+<LoginId></LoginId>
+<EpicAccountId></EpicAccountId>
+<NumMinidumpFramesToIgnore>2</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+TwinShooter  0x00000000dd900000 + d428ac  
+TwinShooter  0x00000000dd900000 + b593ea  
+TwinShooter  0x00000000dd900000 + ab43f7  
+TwinShooter  0x00000000dd900000 + ab42e8  
+TwinShooter  0x00000000dd900000 + a37971  
+TwinShooter  0x00000000dd900000 + a288ac  
+TwinShooter  0x00000000dd900000 + a763d3  
+TwinShooter  0x00000000dd900000 + 3e6f60  
+TwinShooter  0x00000000dd900000 + 3f4ba9  
+TwinShooter  0x00000000dd900000 + 3edf26  
+TwinShooter  0x00000000dd900000 + 3ee23a  
+TwinShooter  0x00000000dd900000 + 3ff030  
+TwinShooter  0x00000000dd900000 + 48c684a 
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</PCallStack>
+<PCallStackHash>2D1E73F46EFCADB28CE26F29602E466DADC9B15B</PCallStackHash>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Assertion failed:  [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Core/Private/Internationalization/ICUInternationalization.cpp] [Line: 136] 
+ICU data directory was not discovered:
+../../../WaveShooter/Content/Internationalization
+../../../Engine/Content/Internationalization
+</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>0</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>0</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor></Misc.CPUVendor>
+<Misc.CPUBrand></Misc.CPUBrand>
+<Misc.PrimaryGPUBrand></Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor></Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<GameStateName></GameStateName>
+<MemoryStats.TotalPhysical>34204721152</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>20238008320</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140732825735168</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>49553408</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>49553408</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>34713600</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>34717696</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<Threads><Thread><CallStack>ntdll         0x000000000d660000 + a33e4   
+KERNELBASE    0x000000000ac30000 + 42a4e   
+TwinShooter   0x00000000dd900000 + d4004a  
+TwinShooter   0x00000000dd900000 + 48e932e 
+VCRUNTIME140  0x0000000000890000 + ecf0    
+ntdll         0x000000000d660000 + a82ff   
+ntdll         0x000000000d660000 + 35a0a   
+ntdll         0x000000000d660000 + 32cd3   
+KERNELBASE    0x000000000ac30000 + 4478c   
+TwinShooter   0x00000000dd900000 + d3ffc7  
+TwinShooter   0x00000000dd900000 + d428ac  
+TwinShooter   0x00000000dd900000 + b593ea  
+TwinShooter   0x00000000dd900000 + ab43f7  
+TwinShooter   0x00000000dd900000 + ab42e8  
+TwinShooter   0x00000000dd900000 + a37971  
+TwinShooter   0x00000000dd900000 + a288ac  
+TwinShooter   0x00000000dd900000 + a763d3  
+TwinShooter   0x00000000dd900000 + 3e6f60  
+TwinShooter   0x00000000dd900000 + 3f4ba9  
+TwinShooter   0x00000000dd900000 + 3edf26  
+TwinShooter   0x00000000dd900000 + 3ee23a  
+TwinShooter   0x00000000dd900000 + 3ff030  
+TwinShooter   0x00000000dd900000 + 48c684a 
+KERNEL32      0x000000000b560000 + 154e0   
+ntdll         0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>41300</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26296</ThreadID>
+<ThreadName>TaskGraphThreadNP 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33264</ThreadID>
+<ThreadName>TaskGraphThreadNP 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>34140</ThreadID>
+<ThreadName>TaskGraphThreadNP 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14316</ThreadID>
+<ThreadName>TaskGraphThreadNP 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5108</ThreadID>
+<ThreadName>TaskGraphThreadNP 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41728</ThreadID>
+<ThreadName>TaskGraphThreadNP 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17696</ThreadID>
+<ThreadName>TaskGraphThreadNP 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18624</ThreadID>
+<ThreadName>TaskGraphThreadNP 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41860</ThreadID>
+<ThreadName>TaskGraphThreadNP 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39552</ThreadID>
+<ThreadName>TaskGraphThreadNP 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12880</ThreadID>
+<ThreadName>TaskGraphThreadNP 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28900</ThreadID>
+<ThreadName>TaskGraphThreadNP 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>35856</ThreadID>
+<ThreadName>TaskGraphThreadNP 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5820</ThreadID>
+<ThreadName>TaskGraphThreadNP 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>42752</ThreadID>
+<ThreadName>TaskGraphThreadNP 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28044</ThreadID>
+<ThreadName>TaskGraphThreadNP 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>35832</ThreadID>
+<ThreadName>TaskGraphThreadNP 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>42316</ThreadID>
+<ThreadName>TaskGraphThreadNP 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7044</ThreadID>
+<ThreadName>TaskGraphThreadHP 18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29900</ThreadID>
+<ThreadName>TaskGraphThreadHP 19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>37036</ThreadID>
+<ThreadName>TaskGraphThreadHP 20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>37172</ThreadID>
+<ThreadName>TaskGraphThreadHP 21</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41904</ThreadID>
+<ThreadName>TaskGraphThreadHP 22</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41624</ThreadID>
+<ThreadName>TaskGraphThreadHP 23</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9676</ThreadID>
+<ThreadName>TaskGraphThreadHP 24</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>34884</ThreadID>
+<ThreadName>TaskGraphThreadHP 25</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39100</ThreadID>
+<ThreadName>TaskGraphThreadHP 26</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>34996</ThreadID>
+<ThreadName>TaskGraphThreadHP 27</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>24128</ThreadID>
+<ThreadName>TaskGraphThreadHP 28</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>27280</ThreadID>
+<ThreadName>TaskGraphThreadHP 29</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30848</ThreadID>
+<ThreadName>TaskGraphThreadHP 30</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>42244</ThreadID>
+<ThreadName>TaskGraphThreadHP 31</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3536</ThreadID>
+<ThreadName>TaskGraphThreadHP 32</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>24124</ThreadID>
+<ThreadName>TaskGraphThreadHP 33</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17244</ThreadID>
+<ThreadName>TaskGraphThreadHP 34</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>22928</ThreadID>
+<ThreadName>TaskGraphThreadHP 35</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>38132</ThreadID>
+<ThreadName>TaskGraphThreadBP 36</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28148</ThreadID>
+<ThreadName>TaskGraphThreadBP 37</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>35040</ThreadID>
+<ThreadName>TaskGraphThreadBP 38</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26404</ThreadID>
+<ThreadName>TaskGraphThreadBP 39</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>27340</ThreadID>
+<ThreadName>TaskGraphThreadBP 40</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39396</ThreadID>
+<ThreadName>TaskGraphThreadBP 41</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>34184</ThreadID>
+<ThreadName>TaskGraphThreadBP 42</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39436</ThreadID>
+<ThreadName>TaskGraphThreadBP 43</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29896</ThreadID>
+<ThreadName>TaskGraphThreadBP 44</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21584</ThreadID>
+<ThreadName>TaskGraphThreadBP 45</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>32160</ThreadID>
+<ThreadName>TaskGraphThreadBP 46</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28352</ThreadID>
+<ThreadName>TaskGraphThreadBP 47</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33844</ThreadID>
+<ThreadName>TaskGraphThreadBP 48</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31984</ThreadID>
+<ThreadName>TaskGraphThreadBP 49</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23740</ThreadID>
+<ThreadName>TaskGraphThreadBP 50</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30764</ThreadID>
+<ThreadName>TaskGraphThreadBP 51</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28140</ThreadID>
+<ThreadName>TaskGraphThreadBP 52</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 9535a5  
+TwinShooter  0x00000000dd900000 + 95489d  
+TwinShooter  0x00000000dd900000 + 95b9ab  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29064</ThreadID>
+<ThreadName>TaskGraphThreadBP 53</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + 95421d  
+TwinShooter  0x00000000dd900000 + 954823  
+TwinShooter  0x00000000dd900000 + c4c54d  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>38764</ThreadID>
+<ThreadName>StatsThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9724</ThreadID>
+<ThreadName>PoolThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39060</ThreadID>
+<ThreadName>PoolThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>37812</ThreadID>
+<ThreadName>PoolThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12696</ThreadID>
+<ThreadName>PoolThread 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39844</ThreadID>
+<ThreadName>PoolThread 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5884</ThreadID>
+<ThreadName>PoolThread 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28968</ThreadID>
+<ThreadName>PoolThread 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>37384</ThreadID>
+<ThreadName>PoolThread 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36416</ThreadID>
+<ThreadName>PoolThread 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10860</ThreadID>
+<ThreadName>PoolThread 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39196</ThreadID>
+<ThreadName>PoolThread 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28128</ThreadID>
+<ThreadName>PoolThread 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26964</ThreadID>
+<ThreadName>PoolThread 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6204</ThreadID>
+<ThreadName>PoolThread 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39448</ThreadID>
+<ThreadName>PoolThread 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39444</ThreadID>
+<ThreadName>PoolThread 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>38844</ThreadID>
+<ThreadName>PoolThread 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33500</ThreadID>
+<ThreadName>PoolThread 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30480</ThreadID>
+<ThreadName>PoolThread 18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a33e4   
+KERNELBASE   0x000000000ac30000 + 42a4e   
+TwinShooter  0x00000000dd900000 + d645eb  
+TwinShooter  0x00000000dd900000 + a4c5a8  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>34988</ThreadID>
+<ThreadName>PoolThread 19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll        0x000000000d660000 + a39e4   
+ntdll        0x000000000d660000 + 5b4c3   
+KERNELBASE   0x000000000ac30000 + 4b3a1   
+TwinShooter  0x00000000dd900000 + 9e17b4  
+TwinShooter  0x00000000dd900000 + d6067f  
+TwinShooter  0x00000000dd900000 + d565e1  
+KERNEL32     0x000000000b560000 + 154e0   
+ntdll        0x000000000d660000 + 485b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>25692</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+</PlatformProperties>
+<EngineData>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>

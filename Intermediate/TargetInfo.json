@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TwinShooter",
+			"Path": "C:\\Users\\larsn_lfaf6p3\\WaveShooter\\Source\\TwinShooter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TwinShooterEditor",
+			"Path": "C:\\Users\\larsn_lfaf6p3\\WaveShooter\\Source\\TwinShooterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
