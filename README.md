@@ -1,3 +1,3 @@
 # WaveShooter
 
-These are two C++ files that i wrote to create my very first 2 Blueprints to use in a WaveShooter game that i made for my Ambition project at SintLucas Eindhoven.
+This is the first Unreal Engine project i ever made. A simple waveshooter to play with a controller, that plays until you have 50 points or if you run out of health.
